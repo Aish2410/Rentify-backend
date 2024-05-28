@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\spring boot"/>
 			<item value="C:\Users\Dell\Desktop\FullStack1\spring boot"/>
 			<item value="C:\Users\Dell\Desktop\spring boot"/>
 		</list>
