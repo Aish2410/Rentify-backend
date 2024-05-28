@@ -26,6 +26,3 @@ WORKDIR /app
 
 # Expose the port your application runs on
 EXPOSE 5454
-
-# Command to run the application
-ENTRYPOINT ["java", "-jar", "/app/Rentify-0.0.1-SNAPSHOT.jar"]
