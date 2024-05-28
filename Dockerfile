@@ -20,11 +20,12 @@ FROM openjdk:17-jdk-alpine
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the built jar file into the container
-COPY target/your-app-name.jar /app/your-app-name.jar
+# # Command to run the Spring Boot application when the container starts
+ CMD ["java", "-jar", "e-commerce-0.0.1-SNAPSHOT.jar"]
+
 
 # Expose the port your application runs on
-EXPOSE 8080
+EXPOSE 5454
 
 # Command to run the application
-ENTRYPOINT ["java", "-jar", "/app/your-app-name.jar"]
+ENTRYPOINT ["java", "-jar", "/app/Rentify-0.0.1-SNAPSHOT.jar"]
